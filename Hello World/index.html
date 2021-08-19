@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <style>
+
+      body, html{
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .nav-container {
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+      }
+
+      .resume {
+        float: right;
+        font-family: monospace;
+        font-size: 20px;
+        text-decoration: none;
+        color: #000;
+        margin-top: -47px;
+        margin-right: 20px;
+      }
+
+      .logo {
+        display: block;
+        padding: 20px;
+      }
+
+      .wrapper {
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .typing-effect {
+        width: 24ch;
+        animation: typing 2s steps(24), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+        font-size: 5vh;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0
+        }
+      }
+    
+      @keyframes blink {
+        50% {
+          border-color: transparent
+        }
+      }
+    </style>
+    <title>My name is...</title>
+  </head>
+  <body>
+
+
+    <div class="nav-container">
+
+      <header>
+        <a href="https://training.zuri.team/"><img class="logo" src="/zuri.png"></a>
+  
+
+        <nav>
+          <a href="" class="resume">Resume</a>
+
+        </nav>
+      </header>
+    </div>
+  
+
+    <div class="wrapper">
+      <div class="typing-effect">
+        My name is Banigo Kanno.
+      </div>
+    </div>
+
+
+  </body>
+</html>
